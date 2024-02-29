@@ -65,27 +65,27 @@ Ce projet devrait pouvoir être utilisé avec n'importe quel serveur local qui s
 
     Le site sur notre page principale peut ce décomposer en deux parties pour le moment, 
 
-        Une navbar qui nous servira à retourner sur notre Dashboard (Notre main page, la seule qui est fonctionnelle !). Dans cette navbar nous pouvons apercevoir un magnifique logo, des boutons qui emmène tous au même endroit et l'image de profil de notre cher Arima ! Si vous cliquez dessus, vous pourrez voir un menu déroulant qui emmènera notre utilisateur vers sa page de compte, une page paramètres et un bouton qui servira à se déconnecter plus tard.
+    Une navbar qui nous servira à retourner sur notre Dashboard (Notre main page, la seule qui est fonctionnelle !). Dans cette navbar nous pouvons apercevoir un magnifique logo, des boutons qui emmène tous au même endroit et l'image de profil de notre cher Arima ! Si vous cliquez dessus, vous pourrez voir un menu déroulant qui emmènera notre utilisateur vers sa page de compte, une page paramètres et un bouton qui servira à se déconnecter plus tard.
 
-        Notre body qui sera composé d'un header avec un champ de texte qui nous montrera combien d'animés sont montrés sur cette page, jusqu'à combien et combien il y en à en tout. Et à la droite un bouton pour refresh la page (au cas où on aurait ajouter un anime ou modifier un anime sur une autre page) et un bouton d'ajout d'anime qui nous mèneras à notre page Create. 
+     Notre body qui sera composé d'un header avec un champ de texte qui nous montrera combien d'animés sont montrés sur cette page, jusqu'à combien et combien il y en à en tout. Et à la droite un bouton pour refresh la page (au cas où on aurait ajouter un anime ou modifier un anime sur une autre page) et un bouton d'ajout d'anime qui nous mèneras à notre page Create. 
 
-        Ensuite, nous aurons le corps principal de notre requête Read qui va lister tous les animes que l'ont suit, le status qu'on leur donne, la langue dans laquelle on le regarde, le dernier épisode vu (avec sa date de mise à jour) et le dernier épisode sorti pour la langue qu'on a choisi (avec sa date de sortie) et enfin un bouton qui nous emmènes vers la page d'édition/de suppression.
+    Ensuite, nous aurons le corps principal de notre requête Read qui va lister tous les animes que l'ont suit, le status qu'on leur donne, la langue dans laquelle on le regarde, le dernier épisode vu (avec sa date de mise à jour) et le dernier épisode sorti pour la langue qu'on a choisi (avec sa date de sortie) et enfin un bouton qui nous emmènes vers la page d'édition/de suppression.
 
-        Enfin, nous trouverons un footer qui affichera au cas où nous aurions beaucoup d'animes suivi une deuxième fois notre champ de texte et une navigation dans nos pages sur la droite.
+    Enfin, nous trouverons un footer qui affichera au cas où nous aurions beaucoup d'animes suivi une deuxième fois notre champ de texte et une navigation dans nos pages sur la droite.
 
 
     Maintenant, nous allons pouvoir ajouter un anime à notre liste, pour ce faire, on va cliquer sur le bouton d'ajout qui nous emmèneras au formulaire d'ajout.
 
-        Nous avons des menus déroulants qui nous laisses choisir ce que l'ont veut (Attention, il n'y a pas des épisodes exemples pour tout les animes). En premier lieu, on va choisir l'anime puis le valider et cela va nous afficher les langages disponibles pour cet anime.
-        Après avoir valider le langage, le menu déroulant du dernier épisode vu sera rempli des épisodes correspondant à la langue et l'anime choisi. 
-        Et n'oubliez pas de choisir le statut que vous voulez lui donner avant d'ajouter l'anime à votre liste. 
+    Nous avons des menus déroulants qui nous laisses choisir ce que l'ont veut (Attention, il n'y a pas des épisodes exemples pour tout les animes). En premier lieu, on va choisir l'anime puis le valider et cela va nous afficher les langages disponibles pour cet anime.
+    Après avoir valider le langage, le menu déroulant du dernier épisode vu sera rempli des épisodes correspondant à la langue et l'anime choisi. 
+    Et n'oubliez pas de choisir le statut que vous voulez lui donner avant d'ajouter l'anime à votre liste. 
 
-        Une fois fait, vous aurez un petit message vous confirmant ou non le bon déroulement de l'ajout. On a plus qu'à repartir sur le Tableau de bord pour vérifier que notre anime a bien été ajouter.
+    Une fois fait, vous aurez un petit message vous confirmant ou non le bon déroulement de l'ajout. On a plus qu'à repartir sur le Tableau de bord pour vérifier que notre anime a bien été ajouter.
 
     
     Enfin, nous allons découvrir la partie d'édition, quand vous cliquerez sur le bouton d'édition, nous serons emmenés sur le formulaire d'édition/de suppression de l'anime en question.
 
-        Nous aurons le même genre de formulaire que le précédent sauf qu'il sera pré-rempli. On ne pourra pas choisir d'autres animes mais on pourra toujours choisir une autre langue (si elles existent), un autre statut et d'autres épisodes. 
-        Là, nous aurons un bouton de suppression qui actionnera notre fonction delete et un bouton d'édition afin de mettre à jour les données rentrées. 
+    Nous aurons le même genre de formulaire que le précédent sauf qu'il sera pré-rempli. On ne pourra pas choisir d'autres animes mais on pourra toujours choisir une autre langue (si elles existent), un autre statut et d'autres épisodes. 
+    Là, nous aurons un bouton de suppression qui actionnera notre fonction delete et un bouton d'édition afin de mettre à jour les données rentrées. 
 
 Voilà ! J'espère que ça vous aura intéressé, pour ma part, ça a été un challenge sur le CSS avec le framework tailwind (Non pas que tailwind est difficile d'utilisation, mais je déteste le CSS hahaha). 
